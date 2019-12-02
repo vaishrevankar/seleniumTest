@@ -19,7 +19,7 @@ public class SimpleSelTest {
 	@Test
 	public void TestMethod() {
 		 //Launch firefox browser 
-		String location=System.getProperty("user.dir");
+		//String location=System.getProperty("user.dir");
 		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--headless");
@@ -36,7 +36,7 @@ public class SimpleSelTest {
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
 	 
 	    //open the url or AUT 
-	    driver.get("https://www.makemytrip.com/");
+	    driver.get("https://www.amazon.com/");
 	    
 	    driver.quit();
 	}
