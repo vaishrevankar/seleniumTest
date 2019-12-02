@@ -19,7 +19,7 @@ public class SimpleSelTest {
 	public void TestMethod() {
 		 //Launch firefox browser 
 		String location=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", location+"\\lib\\chromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", location+"//lib//chromeDriver//chromedriver.exe");
 		driver = new ChromeDriver();  
 	    
 	    //maximize the browser
