@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-12-02T09:52:25Z" name="SampleSuite" finished-at="2019-12-02T09:52:45Z" duration-ms="20304">
+    <groups>
+    </groups>
+    <test started-at="2019-12-02T09:52:25Z" name="SampleTest" finished-at="2019-12-02T09:52:45Z" duration-ms="20304">
+      <class name="com.soumya.SeleniumTest.SimpleSelTest">
+        <test-method signature="TestMethod()[pri:0, instance:com.soumya.SeleniumTest.SimpleSelTest@71248c21]" started-at="2019-12-02T09:52:25Z" name="TestMethod" finished-at="2019-12-02T09:52:45Z" duration-ms="20236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestMethod -->
+      </class> <!-- com.soumya.SeleniumTest.SimpleSelTest -->
+    </test> <!-- SampleTest -->
+  </suite> <!-- SampleSuite -->
+</testng-results>
