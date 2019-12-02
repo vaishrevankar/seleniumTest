@@ -36,20 +36,7 @@ public class SimpleSelTest {
 	    driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS); 
 	 
 	    //open the url or AUT 
-	    driver.get("http://newtours.demoaut.com/");
-	 
-	    //Click on the register link: 
-	    WebElement lnk_register = driver.findElement(By.linkText("REGISTER")); 
-	    lnk_register.click();
-	 
-	    //Enter details on the provided text boxes by using sendkeys method. 
-	    WebElement txtBox_firstname = driver.findElement(By.name("firstName")); 
-	    txtBox_firstname.sendKeys("John"); 
-	    
-	    //or directly we can identify element and act on that in one line 
-	    driver.findElement(By.name("lastName")).sendKeys("Clark"); 
-	    driver.findElement(By.name("phone")).sendKeys("2342342341"); 
-	    driver.findElement(By.name("userName")).sendKeys("sunilpatro1985@gmail.com"); 
+	    driver.get("https://www.makemytrip.com/");
 	    
 	    driver.quit();
 	}
