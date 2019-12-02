@@ -9,6 +9,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.Test;
  
@@ -19,7 +20,12 @@ public class SimpleSelTest {
 	public void TestMethod() {
 		 //Launch firefox browser 
 		String location=System.getProperty("user.dir");
-		System.setProperty("webdriver.chrome.driver", location+"//lib//chromeDriver//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/usr/bin/chromedriver");
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--headless");
+		options.addArguments("--disable-gpu");
+		options.addArguments("--window-size=1020,768");
+		options.addArguments("--no-sandbox");
 		driver = new ChromeDriver();  
 	    
 	    //maximize the browser
