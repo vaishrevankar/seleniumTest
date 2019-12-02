@@ -26,7 +26,7 @@ public class SimpleSelTest {
 		options.addArguments("--disable-gpu");
 		options.addArguments("--window-size=1020,768");
 		options.addArguments("--no-sandbox");
-		driver = new ChromeDriver();  
+		driver = new ChromeDriver(options);  
 	    
 	    //maximize the browser
 	    driver.manage().window().maximize();
